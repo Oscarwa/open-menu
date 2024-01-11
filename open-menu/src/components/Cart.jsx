@@ -52,9 +52,9 @@ const CartItem = ({ item, section, removeItem }) => {
       <Accordion.Header>
         {item.qty} x {item.name}
       </Accordion.Header>
-      <Accordion.Body>
-        {item.variants &&
-          item.variants.map((v) => (
+      {item.variants ? (
+        <Accordion.Body>
+          {item.variants.map((v) => (
             <div className="d-flex justify-content-between mb-2">
               <span>{v}</span>
               <Button
@@ -66,7 +66,8 @@ const CartItem = ({ item, section, removeItem }) => {
               </Button>
             </div>
           ))}
-      </Accordion.Body>
+        </Accordion.Body>
+      ) : null}
     </Accordion.Item>
   );
 };
