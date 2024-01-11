@@ -1,0 +1,6 @@
+[
+  { "to": "El Mirador", "fee": 10 },
+  { "to": "Via Catania", "fee": 15 },
+  { "to": "Zen House", "fee": 20 },
+  { "to": "Milenio III", "fee": 60 }
+]

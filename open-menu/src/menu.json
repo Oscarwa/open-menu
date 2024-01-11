@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Hamburguesas",
+    "items": [
+      {
+        "id": 1,
+        "name": "Burger",
+        "price": 100,
+        "cookTime": 1,
+        "description": "100g beef patty with lettuce, onion and tomato"
+      },
+      {
+        "id": 2,
+        "name": "Champiburger",
+        "price": 140,
+        "cookTime": 2,
+        "vegetarian": true,
+        "description": "Portobello mushroom, cheddar cheese, with lettuce, onion and tomato"
+      },
+      {
+        "id": 3,
+        "name": "Cheeseburger",
+        "price": 120,
+        "cookTime": 2,
+        "recommended": true,
+        "description": "100g beef patty, cheddar cheese, with lettuce, onion and tomato"
+      },
+      {
+        "id": 4,
+        "name": "Special burger",
+        "price": 150,
+        "cookTime": 3,
+        "description": "100g beef patty, cheddar cheese, bacon with lettuce, onion and tomato"
+      }
+    ]
+  },
+  {
+    "name": "Snacks",
+    "items": [
+      {
+        "id": 31,
+        "name": "French fries",
+        "price": 30,
+        "description": "Regular cut fried french fries seasoned with lemon pepper",
+        "variants": ["Regular", "With cheese"]
+      },
+      {
+        "id": 32,
+        "name": "Onion rings",
+        "price": 40,
+        "description": "Natural breaded fried onion rings"
+      }
+    ]
+  },
+  {
+    "name": "Drinks",
+    "items": [
+      {
+        "id": 61,
+        "name": "Soda",
+        "price": 20,
+        "description": "Anything from Coca Cola"
+      },
+      {
+        "id": 62,
+        "name": "Milkshake",
+        "variants": ["Chocolate", "Vanilla", "Strawberry"],
+        "price": 60,
+        "description": "Natural ice cream milkshakes"
+      }
+    ]
+  }
+]
